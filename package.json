@@ -1,0 +1,28 @@
+{
+  "name": "cienciapopular-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cienciapopular-backend": "server.js"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GMCamargo/cienciapopular-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GMCamargo/cienciapopular-backend/issues"
+  },
+  "homepage": "https://github.com/GMCamargo/cienciapopular-backend#readme"
+}
