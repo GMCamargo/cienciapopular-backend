@@ -1,16 +1,8 @@
 const express = require('express');
+const routes = require('./routes');
 
 const app = express();
-const router = express.Router();
 
-const route = router.get('/', (req,res,next) =>{
-    res.status(200).send({
-        title: "Ciencia Popular APi",
-        version: "0.0.1"
-    });
-});
-
-
-app.use('/', route);
+app.use(routes);
 
 module.exports = app;
